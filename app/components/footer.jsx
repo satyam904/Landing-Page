@@ -13,9 +13,9 @@ const Footer = () => {
         {/* Main Footer Content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 md:py-20">
           {/* Footer Grid */}
-          <div className="">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-12">
             {/* Brand Section */}
-            {/* <div className="col-span-1 sm:col-span-2 md:col-span-1">
+            <div className="col-span-1 sm:col-span-2 md:col-span-1">
               <div className="flex items-center gap-2 mb-4">
                 <Image 
                   src="/Logo.svg" 
@@ -31,10 +31,10 @@ const Footer = () => {
               <p className="text-purple-200 text-sm leading-relaxed">
                 Create truly personal gifts with our color astrology book and personalization guides.
               </p>
-            </div> */}
+            </div>
 
             {/* Company Links */}
-            {/* <div>
+            <div>
               <h3 className="text-lg font-bold mb-4 text-purple-100">Company</h3>
               <ul className="space-y-2">
                 <li>
@@ -52,16 +52,16 @@ const Footer = () => {
                     Careers
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#partnerships" className="text-purple-300 hover:text-white transition-colors duration-300 text-sm md:text-base">
                     Partnerships
                   </a>
-                </li>
+                </li> */}
               </ul>
-            </div> */}
+            </div>
 
             {/* Resources Links */}
-            {/* <div>
+            <div>
               <h3 className="text-lg font-bold mb-4 text-purple-100">Resources</h3>
               <ul className="space-y-2">
                 <li>
@@ -76,47 +76,47 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#corporate" className="text-purple-300 hover:text-white transition-colors duration-300 text-sm md:text-base">
-                    Corporate Sales
+                    FAQ's
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#financing" className="text-purple-300 hover:text-white transition-colors duration-300 text-sm md:text-base">
                     Financing
                   </a>
-                </li>
+                </li> */}
               </ul>
-            </div> */}
+            </div>
 
             {/* Account Links */}
-            {/* <div>
+            <div>
               <h3 className="text-lg font-bold mb-4 text-purple-100">Account</h3>
               <ul className="space-y-2">
                 <li>
                   <a href="#login" className="text-purple-300 hover:text-white transition-colors duration-300 text-sm md:text-base">
-                    Log-In
+                    Linkdin
                   </a>
                 </li>
                 <li>
                   <a href="#orders" className="text-purple-300 hover:text-white transition-colors duration-300 text-sm md:text-base">
-                    Orders
+                    Instagram
                   </a>
                 </li>
                 <li>
                   <a href="#downloads" className="text-purple-300 hover:text-white transition-colors duration-300 text-sm md:text-base">
-                    Downloads
+                    Fackbook
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#settings" className="text-purple-300 hover:text-white transition-colors duration-300 text-sm md:text-base">
                     Settings
                   </a>
-                </li>
+                </li> */}
               </ul>
-            </div> */}
+            </div>
           </div>
 
           {/* Divider */}
-          {/* <div className="border-t border-purple-700 my-8"></div> */}
+          <div className="border-t border-purple-700 my-8"></div>
 
           {/* Bottom Footer */}
           {/* <div className="flex flex-col md:flex-row justify-between items-center gap-4"> */}
@@ -150,12 +150,12 @@ const Footer = () => {
               <a href="#supplier" className="text-purple-300 hover:text-white transition-colors duration-300">
                 SUPPLIER TERMS
               </a>
-            </div>
-          </div> */}
+            </div> */}
+          {/* </div> */}
 
           {/* Copyright */}
-          <div className="text-center mt-1 pt-1 ">
-            <p className="">
+          <div className="text-center ">
+            <p className="text-purple-100 text-xs md:text-sm">
               © 2025 DelightLoop. All rights reserved. Made with <span className="text-pink-400">❤️</span> for personalization
             </p>
           </div>

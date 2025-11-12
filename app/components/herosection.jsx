@@ -52,10 +52,15 @@ const HeroSection = () => {
       <Navbar />
 
       {/* Main Content Container */}
-      <div className="relative z-10 w-full h-full flex flex-col items-center justify-center px-4 sm:px-4 py-8 sm:py-12 md:py-20 pt-20 sm:pt-24 md:pt-32">
+      <div className="relative z-10 w-full flex flex-col items-center justify-center px-4 sm:px-6 py-8 sm:py-12 md:py-20 pt-20 sm:pt-12 md:pt-20 mt-18 sm:mt-29 md:mt-0 hero-responsive">
         <div className="w-full max-w-2xl space-y-6 sm:space-y-8 md:space-y-2">
           {/* Header Content */}
           <div className="text-center space-y-2 sm:space-y-4 md:space-y-6 animate-fadeInDown ">
+            {/* Mobile-only Welcome Text */}
+            <h1 className="mobile-only block md:hidden text-2xl sm:text-3xl font-bold text-white mb-3">
+              Welcome to DelightLoop 💫
+            </h1>
+            <br />
             <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-white leading-tight">
               Hello!
             </h1>
@@ -358,6 +363,13 @@ const HeroSection = () => {
                 rgba(147, 51, 234, 0.2) 0%,
                 transparent 50%
               );
+          }
+        }
+
+        /* Hide .mobile-only on larger screens */
+        @media (min-width: 768px) {
+          .mobile-only {
+            display: none !important;
           }
         }
 
