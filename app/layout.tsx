@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DelightLoop - Personal Gift Creator",
+  title: "Landing-Page - Personal Gift Creator",
   description: "Create truly personal gifts with our color astrology book",
   icons: {
     icon: "/Logo.svg",
